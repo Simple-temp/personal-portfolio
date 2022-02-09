@@ -1,0 +1,38 @@
+.progress
+{
+    padding:10px 0;
+}
+label
+{
+    padding:10px;
+
+}
+.about-info
+{
+    padding-left:13px;
+}
+.p-bar
+{
+    margin-top:10px;
+    padding:7px;
+}
+.about{
+    margin-top:20px;
+}
+.about-box{
+    padding-left:16px;
+}
+.about-info small 
+{
+    font-size:18px;
+    font-weight:600;
+}
+.about-info span 
+{
+    color:rgb(0, 189, 202);
+}
+@media (max-width:992px) {
+    .about-box{
+        margin-top:20px;
+    }
+}

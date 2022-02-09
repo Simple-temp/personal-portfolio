@@ -1,0 +1,40 @@
+.field
+{
+    padding:10px 14px;
+    margin-top:12px;
+}
+footer{
+    background-image: url(../../../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    position: relative;
+    padding:40px 0 10px 0;
+    margin-top:60px;
+}
+:focus{
+    outline: none;
+}
+footer ul li{
+    list-style: none;
+    margin-top:13px;
+}
+footer ul li a 
+{
+    text-decoration: none;
+    color:#fff;
+    cursor:pointer;
+}
+footer ul li i
+{
+    margin-right:13px;
+}
+footer ul li a:hover 
+{
+    color:#fff;
+}
+.contact h2 
+{
+    padding-left:30px;
+    padding-bottom:20px;
+}
