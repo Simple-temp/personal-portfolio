@@ -10,19 +10,19 @@ const Work = () => {
     const blog = [
         {
             img : react,
-            title : "HTML"
+            title : "REACT"
         },
         {
             img : js,
-            title : "CSS"
-        },
-        {
-            img : html,
             title : "JS"
         },
         {
+            img : html,
+            title : "HTML"
+        },
+        {
             img : css,
-            title : "REACT"
+            title : "CSS"
         },
     ]
 
