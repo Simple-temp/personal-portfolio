@@ -1,7 +1,7 @@
 import React from 'react';
 import "./About.css"
 import ProgressBar from "@ramonak/react-progress-bar";
-import person from "../../../img/p1.jpg"
+import person from "../../../img/a1.jpg"
 import { Typewriter } from 'react-simple-typewriter'
 
 
@@ -10,7 +10,7 @@ const About = () => {
         <section>
             <div className="container inner-container mt-1 py-5" id="about">
                 <div className="row">
-                    <div className="col-lg-6 col-md-6 col-12 about">
+                    <div className="col-lg-6 col-md-6 col-12 about d-flex align-items-center">
                         <img src={person} alt="" className='img-fluid' />
                     </div>
                     <div className="col-lg-6 col-md-6 col-12">
@@ -30,7 +30,6 @@ const About = () => {
                                         />
                                     </span>
                                 </small>
-                                <p className='mt-3'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta magni perspiciatis veniam dolores ratione consequuntur mollitia itaque distinctio atque corporis.</p>
                             </div>
                             <div className="p-bar">
                                 <label>React Js</label>
