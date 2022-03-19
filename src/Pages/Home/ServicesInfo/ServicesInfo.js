@@ -1,10 +1,10 @@
 import React from 'react';
 import "./ServicesInfo.css";
 
-const ServicesInfo = ({ser}) => {
-    const {logo,des,title} = ser
+const ServicesInfo = ({ser,handleFilterKeyChange}) => {
+    const {logo,des,title,filter} = ser
     return (
-        <div className='col-lg-4 col-md-6 col-12'>
+        <div className={ `col-lg-4 col-md-6 col-12 ${filter}`} onClick={()=>handleFilterKeyChange()}>
             <div className="s-box">
                 <div className="s-box-header">
                     <img src={logo} className="img-fluid" alt="" />

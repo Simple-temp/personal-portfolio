@@ -10,7 +10,7 @@ const MyWork = ({info}) => {
                 </div>
                 <div className="blog-body">
                     <h5 className='py-2'>{info.title}</h5>
-                    <button className='custom-btn'>see more</button>
+                    <button className='custom-btn'>see blog</button>
                 </div>
             </div>
         </div>

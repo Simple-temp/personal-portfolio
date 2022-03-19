@@ -1,7 +1,14 @@
 import React, { useEffect, useRef, useState } from 'react';
 import ServicesInfo from '../ServicesInfo/ServicesInfo';
-import w1 from "../../../img/w1.png"
+import w1 from "../../../img/w1.png";
+import w2 from "../../../img/w2.png";
+import w3 from "../../../img/w3.png";
+import w4 from "../../../img/w4.png";
+import w5 from "../../../img/w5.png";
+import w6 from "../../../img/w6.png";
+import w7 from "../../../img/w7.png";
 import Isotope from "isotope-layout";
+import "./Services.css"
 
 const Services = () => {
 
@@ -9,37 +16,51 @@ const Services = () => {
         {
             logo: w1,
             title: "Creative Agency",
+            filter: "filter-item mern",
         },
         {
-            logo: w1,
-            title: "Gym Website",
+            logo: w4,
+            title: "Mern todo-list",
+            filter: "filter-item crud",
         },
         {
-            logo: w1,
+            logo: w2,
             title: "Aircnc Website",
+            filter: "filter-item mern",
         },
         {
-            logo: w1,
-            title: "What's Application",
-        }
+            logo: w5,
+            title: "Crud operation",
+            filter: "filter-item crud",
+        },
+        {
+            logo: w6,
+            title: "React Chat-engine Application",
+            filter: "filter-item smsapp",
+        },
+        {
+            logo: w3,
+            title: "Gym Website",
+            filter: "filter-item mern",
+        },
+        {
+            logo: w7,
+            title: "React & Firebase chat app",
+            filter: "filter-item smsapp",
+        },
     ]
 
-    // init one ref to store the future isotope object
     const isotope = useRef()
-    // store the filter keyword in a state
+
     const [filterKey, setFilterKey] = useState('*')
 
-    // initialize an Isotope object with configs
     useEffect(() => {
         isotope.current = new Isotope('.filter-container', {
             itemSelector: '.filter-item',
             layoutMode: 'fitRows',
         })
-        // cleanup
         return () => isotope.current.destroy()
     }, [])
-
-    // handling filter key change
     useEffect(() => {
         filterKey === '*'
             ? isotope.current.arrange({ filter: `*` })
@@ -47,38 +68,26 @@ const Services = () => {
     }, [filterKey])
 
     const handleFilterKeyChange = key => () => setFilterKey(key)
-    
+
     return (
         <section>
             <div className="container mt-1 py-5" id="mywork">
                 <div className="row">
                     <h2 className='text-center'>My best project</h2>
                 </div>
-                <div className="container inner-container  mt-5">
+                <div className="container inner-container isotope-control mt-5">
+                    <ul>
+                        <li onClick={handleFilterKeyChange('*')}>Show-all</li>
+                        <li onClick={handleFilterKeyChange('mern')}>Mern-project</li>
+                        <li onClick={handleFilterKeyChange('crud')}>Crud-project</li>
+                        <li onClick={handleFilterKeyChange('smsapp')}>Message app</li>
+                    </ul>
                     <div className="row">
-                        {/* {
-                            services.map( service => <ServicesInfo ser={service}></ServicesInfo>)
-                        } */}
-                        <ul>
-                            <li onClick={handleFilterKeyChange('*')}>Show Both</li>
-                            <li onClick={handleFilterKeyChange('vege')}>Show Veges</li>
-                            <li onClick={handleFilterKeyChange('fruit')}>Show Fruits</li>
-                        </ul>
-                        <hr />
-                        <ul className="filter-container">
-                            <div className="filter-item vege">
-                                <span>Cucumber</span>
-                            </div>
-                            <div className="filter-item fruit">
-                                <span>Apple</span>
-                            </div>
-                            <div className="filter-item fruit">
-                                <span>Orange</span>
-                            </div>
-                            <div className="filter-item fruit vege">
-                                <span>Tomato</span>
-                            </div>
-                        </ul>
+                        <div className='filter-container'>
+                            {
+                                services.map(service => <ServicesInfo ser={service} handleFilterKeyChange={handleFilterKeyChange}></ServicesInfo>)
+                            }
+                        </div>
                     </div>
                 </div>
             </div>

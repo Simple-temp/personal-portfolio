@@ -1,0 +1,16 @@
+.isotope-control ul{
+    list-style:none;
+    display:flex;
+}
+.isotope-control ul li {
+    margin-right:20px;
+    padding:4px 18px;
+    border:1px solid #fff;
+    color:#fff;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    cursor:pointer;
+}

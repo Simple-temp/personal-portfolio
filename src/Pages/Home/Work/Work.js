@@ -27,7 +27,7 @@ const Work = () => {
     ]
 
     return (
-        <section>
+        <section className='pb-4'>
             <div className="container mt-5 py-1" id="blog">
                 <div className="row">
                     <h2 className='text-center'>Blog</h2>

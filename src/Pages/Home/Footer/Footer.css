@@ -4,7 +4,8 @@
     margin-top:12px;
 }
 footer{
-    background-image: url(../../../img/bg.jpg);
+    /* background-image: url(../../../img/bg.jpg); */
+    background-color: rgb(37, 34, 56);
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;

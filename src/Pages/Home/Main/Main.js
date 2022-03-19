@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Main.css"
-import person from "../../../img/p1.jpg"
+import person from "../../../img/p2.jpg"
 import { Typewriter } from 'react-simple-typewriter'
 
 
