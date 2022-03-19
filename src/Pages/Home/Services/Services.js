@@ -73,7 +73,7 @@ const Services = () => {
         <section>
             <div className="container mt-1 py-5" id="mywork">
                 <div className="row">
-                    <h2 className='text-center'>My best project</h2>
+                    <h2 className='text-center'>My Mern Project</h2>
                 </div>
                 <div className="container inner-container isotope-control mt-5">
                     <ul>

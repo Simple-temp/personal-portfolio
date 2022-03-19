@@ -19,14 +19,14 @@ const Main = () => {
                                 words={['Aziz..','A Web Developer', 'A Web Desinger', 'A Front-End Developer']}
                                 loop
                                 cursor
-                                cursorStyle='_'
+                                cursorStyle='|'
                                 typeSpeed={70}
                                 deleteSpeed={50}
                                 delaySpeed={1000}
                             />
                         </span></h4>
-                        <p className='my-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod cum beatae corrupti, itaque dolor.</p>
-                        <button className='custom-btn'>Hire me!</button><button className='custom-btn but'>Explore Expreience</button>
+                        <p className='my-3'>I am very exiting work with you and your company. My resume and my experience are below. I have done many mern-projects and also full-stack development</p>
+                        <button className='custom-btn'>download resume <i class="fa-solid fa-download"></i></button>
                     </div>
                 </div>
             </div>
