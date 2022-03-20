@@ -7,7 +7,7 @@ const ServicesInfo = ({ ser, handleFilterKeyChange }) => {
         <div className={`col-lg-4 col-md-6 col-12 ${filter}`} onClick={() => handleFilterKeyChange()}>
             <div className="s-box">
                 <div className="s-box-header">
-                    <img src={logo} className="img-fluid" alt="" />
+                    <img src={logo} className="img-fluid w-100" alt="" />
                 </div>
                 <div className="s-box-body mt-4">
                     <h5>{title}</h5>

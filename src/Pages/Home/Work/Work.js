@@ -35,13 +35,13 @@ const Work = () => {
     ]
 
     return (
-        <section className='pb-4'>
+        <section className='pb-4 works'>
             <div className="container mt-5 py-1" id="blog">
                 <div className="row">
                     <h2 className='text-center'>Blog</h2>
                 </div>
             </div>
-            <div className="container inner-container mt-5">
+            <div className="container inner-container w-75 mt-5">
                 <div className="row">
                     {
                         blog.map( info => <MyWork info={info}></MyWork>)

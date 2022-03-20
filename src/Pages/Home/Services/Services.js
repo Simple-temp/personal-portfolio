@@ -116,7 +116,7 @@ const Services = () => {
                     <h2 className='text-center'>My Mern Project</h2>
                 </div>
                 <div className="container inner-container isotope-control mt-5">
-                    <ul>
+                    <ul className="control-ul">
                         <li onClick={handleFilterKeyChange('*')}>Show-all</li>
                         <li onClick={handleFilterKeyChange('mern')}>Mern-project</li>
                         <li onClick={handleFilterKeyChange('crud')}>Crud-project</li>

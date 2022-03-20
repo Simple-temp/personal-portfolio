@@ -4,20 +4,20 @@ import "./Footer.css"
 const Footer = () => {
     return (
         <footer className='contact'>
-            <div className="container mb-4 pb-4" id="contact">
+            <div className="container mb-4 pb-4 w-75 mx-auto" id="contact">
                 <h2 className='text-white mb-5'>Contact</h2>
                 <div className="row">
-                    <div className="col-lg-2 col-md-2 col-sm-12">
+                    <div className="col-lg-4 col-md-3 col-sm-12">
                         <ul className='text-white'>
-                            <li><i class="fab fa-facebook"></i><a href="https://www.facebook.com/profile.php?id=100009176198170" target="_blank">Facebook</a></li>
+                            <li><i class="fab fa-facebook"></i><a href="https://www.facebook.com/profile.php?id=100009176198170">Facebook</a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-2 col-md-2 col-sm-12">
+                    <div className="col-lg-4 col-md-4 col-sm-12">
                         <ul className='text-white'>
                             <li><i class="fas fa-phone"></i><a href="/">01409-447002</a></li>
                         </ul>
                     </div>
-                    <div className="col-lg-3 col-md-3 col-sm-12">
+                    <div className="col-lg-4 col-md-5 col-sm-12">
                         <ul className='text-white'>
                             <li><i class="fas fa-envelope-square"></i><a href="/">reingsroman042@gmail.com</a></li>
                         </ul>

@@ -6,7 +6,7 @@ const MyWork = ({info}) => {
         <div className='col-lg-4 col-md-6 col-12'>
             <div className="blog">
                 <div className="blog-head">
-                    <img src={info.img} className="d-block w-100" style={{height:"230px"}} alt="" />
+                    <img src={info.img} className="img-fluid w-100" style={{height:"230px"}} alt="" />
                 </div>
                 <div className="blog-body">
                     <h5 className='py-2'>{info.title}</h5>

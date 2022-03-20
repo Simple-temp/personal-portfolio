@@ -12,3 +12,26 @@ p,h1,h2,h3,h4,h5,h6{
 small,label{
   color:#fff;
 }
+@media (max-width:768px) {
+  .isotope-control ul li{
+    font-size:13px;
+    margin-right:5px;
+  }
+  .fa-bars{
+    display:block;
+  }
+  .control-ul{
+    display:none;
+  }
+}
+@media (max-width:550px) {
+  .isotope-control ul{
+    display: block;
+    padding-left:0rem;
+  }
+  .isotope-control ul li{
+    display: block;
+    margin-top:13px;
+  }
+}
+
