@@ -2,7 +2,7 @@ import React from 'react';
 import "./Main.css"
 import person from "../../../img/p2.jpg"
 import { Typewriter } from 'react-simple-typewriter'
-
+import resume from "../../../img/resume.png"
 
 
 const Main = () => {
@@ -25,8 +25,8 @@ const Main = () => {
                                 delaySpeed={1000}
                             />
                         </span></h4>
-                        <p className='my-3'>I am very exiting work with you and your company. My resume and my experience are below. I have done many mern-projects and also full-stack development</p>
-                        <button className='custom-btn'>download resume <i class="fa-solid fa-download"></i></button>
+                        <p className='my-3 pb-2'>I am very exiting work with you and your company. My resume and my experience are below. I have done many mern-projects and also full-stack development</p>
+                        <a href={resume} className='custom-btn' download="resume">download resume <i class="fa-solid fa-download"></i></a>
                     </div>
                 </div>
             </div>
