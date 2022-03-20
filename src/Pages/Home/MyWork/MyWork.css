@@ -6,11 +6,6 @@
     -moz-border-radius:11px;
     -ms-border-radius:11px;
     -o-border-radius:11px;
-    transition: .4s;
-    -webkit-transition: .4s;
-    -moz-transition: .4s;
-    -ms-transition: .4s;
-    -o-transition: .4s;
     position: relative;
     height:230px;
     cursor:pointer;
@@ -30,11 +25,20 @@
     top:0;
     left:0;
     text-align: center;
-    display: none;
+    opacity: 0;
+    border-radius:11px;
+    -webkit-border-radius:11px;
+    -moz-border-radius:11px;
+    -ms-border-radius:11px;
+    -o-border-radius:11px;
+    transition: all 0.3s ease;
 }
 .blog h5 {
     margin-top:50px;
 }
 .blog:hover .blog-body{
-    display: block;
+    opacity: 1;
+}
+.fa-github{
+    font-size:22px;
 }

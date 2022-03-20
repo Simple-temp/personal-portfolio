@@ -10,7 +10,7 @@ const MyWork = ({info}) => {
                 </div>
                 <div className="blog-body">
                     <h5 className='py-2'>{info.title}</h5>
-                    <button className='custom-btn'>see blog</button>
+                    <a className='custom-btn' href={info.url} target="_blank" >{info.icon}</a>
                 </div>
             </div>
         </div>

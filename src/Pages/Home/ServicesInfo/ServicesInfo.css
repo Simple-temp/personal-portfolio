@@ -47,3 +47,27 @@
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
 }
+.live-btn{
+    text-decoration: none;
+    color:#fff;
+}
+.fa-satellite-dish{
+    margin-right:6px;
+    color:#fff;
+}
+.live-btn:hover{
+    color: rgb(255, 255, 255);
+}
+.s-box-footer{
+    color:#fff;
+}
+.s-box-footer i{
+    color:#fff;
+    margin-right:7px;
+}
+.s-box-footer a
+{
+    margin-right:20px;
+    text-decoration:none;
+    color:#fff;
+}

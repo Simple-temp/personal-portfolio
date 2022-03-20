@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-2 col-md-2 col-sm-12">
                         <ul className='text-white'>
-                            <li><i class="fab fa-facebook"></i><a href="/">Facebook</a></li>
+                            <li><i class="fab fa-facebook"></i><a href="https://www.facebook.com/profile.php?id=100009176198170" target="_blank">Facebook</a></li>
                         </ul>
                     </div>
                     <div className="col-lg-2 col-md-2 col-sm-12">

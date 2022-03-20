@@ -10,19 +10,27 @@ const Work = () => {
     const blog = [
         {
             img : react,
-            title : "REACT"
+            title : "REACT",
+            url : "https://github.com/Simple-temp/react",
+            icon : <i class="fa-brands fa-github"></i>,
         },
         {
             img : js,
-            title : "JS"
+            title : "JS",
+            url : "https://github.com/Simple-temp/js",
+            icon : <i class="fa-brands fa-github"></i>,
         },
         {
             img : html,
-            title : "HTML"
+            title : "HTML",
+            url : "https://github.com/Simple-temp/html",
+            icon : <i class="fa-brands fa-github"></i>,
         },
         {
             img : css,
-            title : "CSS"
+            title : "CSS",
+            url : "https://github.com/Simple-temp/css",
+            icon : <i class="fa-brands fa-github"></i>,
         },
     ]
 

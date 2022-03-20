@@ -10,7 +10,7 @@ const Main = () => {
         <div className='container mt-5 py-5 main w-75 mx-auto'>
             <div className="row">
                 <div className="col-lg-6 col-md-6 col-sm-12 img">
-                    <img src={person} alt="" className='img-fluid' />
+                    <img src={person} alt="" className='img-fluid w-100' />
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
                     <div className="main-box">

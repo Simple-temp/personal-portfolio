@@ -50,7 +50,7 @@ const About = () => {
                             </div>
                             <div className="p-bar">
                                 <label>Express</label>
-                                <ProgressBar completed={55} labelColor="#fff" className='orange-progress-bar' />
+                                <ProgressBar completed={65} labelColor="#fff" className='orange-progress-bar' />
                             </div>
                             <div className="p-bar">
                                 <label>Mern-projects</label>
