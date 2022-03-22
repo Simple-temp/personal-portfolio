@@ -19,7 +19,7 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-4 col-md-5 col-sm-12">
                         <ul className='text-white'>
-                            <li><i class="fas fa-envelope-square"></i><a href="/">reingsroman042@gmail.com</a></li>
+                            <li><i class="fas fa-envelope-square"></i><a href="/">mdaziz227500@gmail.com</a></li>
                         </ul>
                     </div>
                 </div>
