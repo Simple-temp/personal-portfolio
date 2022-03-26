@@ -1,16 +1,16 @@
 import React from 'react';
 import "./Main.css"
-import person from "../../../img/p2.jpg"
+import person from "../../../img/p1.jpg"
 import { Typewriter } from 'react-simple-typewriter'
-import resume from "../../../img/resume.png"
+import resume from "../../../img/resume.pdf"
 
 
 const Main = () => {
     return (
-        <div className='container mt-5 py-5 main w-75 mx-auto'>
+        <div className='container mt-5 py-5 main mx-auto'>
             <div className="row">
-                <div className="col-lg-6 col-md-6 col-sm-12 img">
-                    <img src={person} alt="" className='img-fluid w-100' />
+                <div className="col-lg-3 col-md-4 col-sm-12 img">
+                    <img src={person} alt="" className='img-fluid' style={{height:"400px",width:"auto"}} />
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
                     <div className="main-box">
